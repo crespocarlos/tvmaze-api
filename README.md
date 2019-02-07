@@ -21,3 +21,6 @@ yarn start:server
 ```
 ## API
 ex: http://localhost:3000/shows?page=1
+
+## TODO
+unit tests
