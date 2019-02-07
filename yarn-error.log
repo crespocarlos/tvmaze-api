@@ -1,0 +1,66 @@
+Arguments: 
+  /usr/local/Cellar/node/11.7.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/carlos.hcrespo/.sdkman/candidates/gradle/current/bin:/Users/carlos.hcrespo/Documents/dev/tools/google-cloud-sdk/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/carlos.hcrespo/Documents/dev/personal/tvmaze/package.json: Unexpected token } in JSON at position 831
+      at JSON.parse (<anonymous>)
+      at /Users/carlos.hcrespo/.config/yarn/global/node_modules/yarn/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/Users/carlos.hcrespo/.config/yarn/global/node_modules/yarn/lib/cli.js:304:30)
+      at /Users/carlos.hcrespo/.config/yarn/global/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "tvmaze",
+    "version": "1.0.0",
+    "description": "tvmaze api",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "tvmaze"
+    ],
+    "author": "Carlos Crespo",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.18.0",
+      "body-parser": "^1.18.3",
+      "bunyan": "^1.8.12",
+      "date-fns": "^1.29.0",
+      "dotenv": "^6.0.0",
+      "express": "^4.16.3",
+      "source-map-support": "^0.5.9",
+      "yargs": "^12.0.4"
+    },
+    "devDependencies": {
+      "@types/express": "^4.16.0",
+      "@types/jest": "^23.3.9",
+      "@types/yargs": "^12.0.1",
+      "nodemon": "^1.18.5",
+      "prettier": "^1.15.3",
+      "ts-node": "^7.0.1",
+      "tslint": "^5.11.0",
+      "tslint-config-prettier": "^1.16.0",
+      "tslint-plugin-prettier": "^2.0.1",
+      "typescript": "^3.2.1"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
