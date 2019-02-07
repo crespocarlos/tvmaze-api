@@ -26,7 +26,7 @@ async function* getShows(): AsyncIterableIterator<TvMazeShow[]> {
     pageNumber++;
     fetchShow = shows.length > 0;
   }
-  return null;
+  return [];
 }
 
 const importShows = async () => {
