@@ -12,12 +12,8 @@
       "interface-name": false,
       "member-ordering": false,
       "prefer-for-of": false,
-      "variable-name": false
-      //    "variable-name": {
-      //      "options": [
-      //        "allow-leading-underscore"
-      //      ]
-      //    }
+      "variable-name": false,
+      "no-console": false,
     },
     "linterOptions": {
       "exclude": [
