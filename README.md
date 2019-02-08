@@ -7,6 +7,7 @@ yarn install
 
 ### Run mongodb docker
 ```
+docker build -t mongodb .
 docker run -t -p 27017:27017 -p 28017:28017 --name mongodb mongodb mongod --bind_ip_all
 ```
 
